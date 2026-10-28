@@ -1,0 +1,26 @@
+{
+  "name": "捞一条",
+  "short_name": "捞一条",
+  "description": "把收藏里没看的，按你的节奏一条条捞出来。",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F0E8",
+  "theme_color": "#F4F0E8",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "share_target": {
+    "action": "./",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  },
+  "shortcuts": [
+    { "name": "存一条", "url": "./#/save", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "队伍", "url": "./#/queue", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
